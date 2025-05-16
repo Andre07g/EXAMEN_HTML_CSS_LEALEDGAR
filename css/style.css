@@ -38,7 +38,7 @@ main {
 }
 
 .cuerpo-pagina {
-    background-image: url("/img/banner.png");
+    background-image: url("../img/banner.png");
     background-size: cover;
     height: 60vh;
 }
@@ -224,7 +224,7 @@ a:hover {
     }
 
     .cuerpo-pagina {
-        background-image: url("/img/banner.png");
+        background-image: url("../img/banner.png");
         background-size:cover;
         background-position: center;
         background-repeat: no-repeat;
