@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main{display: flex;justify-content: center;align-items: center;}
+
+/*DESKTOP*/
+
+/*Pagina principal*/
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+    padding-left: 4vh;
+    padding-right: 5vh;
+}
+
+.banner img {
+    width: 15vh;
+}
+
+.botones-banner {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+    gap: 1vh;
+    font-size:20px
+}
+
+.cuerpo-pagina {
+    background-image: url("/img/banner.png");
+    background-size: cover;
+    height: 60vh;
+}
+
+.cuerpo-pagina h2 {
+    margin: 0;
+    padding: 5vh;
+}
+
+.pie-de-pagina {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    text-align: center;
+}
+
+.pie-de-pagina h2 {
+    width: 40%;
+}
+
+/*Pagina servicios*/
+
+.tarjetas-servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    align-self: center;
+    gap: 15vh;
+    margin-top: 10vh;
+    height: 25vw;
+    height: fit-content;
+    box-sizing: border-box;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 25vh;
+}
+
+.tarjeta {
+    width: 30%;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgb(110, 110, 110);
+    font-weight: 600;
+    font-size: 1.15rem;
+}
+
+.tarjeta div{padding: 1vh;}
