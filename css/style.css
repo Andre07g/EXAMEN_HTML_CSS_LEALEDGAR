@@ -84,3 +84,14 @@ main{display: flex;justify-content: center;align-items: center;}
 }
 
 .tarjeta div{padding: 1vh;}
+
+/*Acerca de nosotros*/
+
+.cuerpo-acerca{display: flex;margin: 10vh;gap: 10vh;justify-content: space-around;}
+.cuerpo-acerca h3{font-weight: 600;
+font-size: 1.5rem;}
+
+.mision-vision{width: 30%;align-items: center;display: flex;flex-direction: column;}
+.mision-vision div{text-align: center;}
+.mision-vision div p{text-align: start;}
+.mision-vision img{width:  60%;}
